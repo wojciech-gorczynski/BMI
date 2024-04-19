@@ -1,4 +1,4 @@
-name: Two jobs
+name: Multi jobs
 
 on:
   push:
@@ -28,3 +28,14 @@ jobs:
         run: echo test job!
       - name: Run python hello.py
         run: python hello.py
+
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo added job!
+      - name: Run python hello.py
+        run: python hello.py  

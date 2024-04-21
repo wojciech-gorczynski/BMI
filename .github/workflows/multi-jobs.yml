@@ -1,4 +1,4 @@
-name: Multi jobs
+name: Multi jobs test
 
 on:
   push:

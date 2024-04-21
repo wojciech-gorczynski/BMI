@@ -40,4 +40,4 @@ jobs:
         - name: Run a one-line script
           run: echo deploy job!
         - name: Run python hello.py
-          run: python hello.py
+          run: python hello2.py

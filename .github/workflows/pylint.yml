@@ -1,4 +1,4 @@
-name: Multi jobs
+name: pylint
 
 on:
   push:
